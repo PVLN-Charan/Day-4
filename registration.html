@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .main-div{
+            width:900px;
+            height:500px;
+            border:6px solid transparent;
+            margin: auto;
+            margin-top: 30px;
+            background-color: white;
+            padding: 100px 10px 10px 50px;
+            display: flex;
+            
+        }
+        .regform-div{
+            width: 550px;
+            height: 500px;
+            border: 6px solid transparent;
+        }
+        label{
+            font-size: 20px;
+            font-weight: 500;
+            
+        }
+        input{
+            padding: 10px;
+            border: 2px solid black;
+            width: 200px;
+            margin: 10px 0px;
+        }
+        .i-name, .e-name, .p-name{
+            padding: 10px;
+        }
+        .phno{
+            color: red;
+            font-size: 20px;
+            margin-top: -5px;
+            
+        }
+        button{
+            width: 230px;
+            height:60px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            
+        }
+        .but-submit{
+            margin-left: 5px;
+        }
+
+        .address-contain{
+            background-color: black;
+            color: white;
+            width: 250px;
+            height: 400px;
+            border: 6px solid transparent;
+            font-size: 25px;
+            padding-left: 20px;
+            padding-top:20px;
+            font-weight: 500;
+            }
+            
+            h1{
+                margin-top: -20px;
+                font-weight: 300;
+            }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="regform-div">
+            <form>
+                <div class="i-name">
+                    <label>NAME</label><br>
+                    <input type="text" name="name" id="Name">
+                </div>
+                <div class="e-name">
+                    <label>EMAIL</label><br>
+                <input type="email" name="email" id="Email">
+                </div>
+                <div class="p-name">
+                    <label>MOBILE</label><br>
+                <input type="number" name="phone" id="Phone">
+                <p class="phno">Enter a valid mobile</p>
+                </div>
+                <div class="but-submit">
+                    <button type="submit">REGISTER</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="address-contain">
+            <p>NAME</p>
+            <h1>sai kiran</h1>
+            <p>EMAIL</p>
+            <p>saikiran@technovar.com</p>
+            <p>MOBILE</p>
+            <p >1234567890</p>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
